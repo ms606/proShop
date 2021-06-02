@@ -23,9 +23,6 @@ app.use(notFound)
 //@ Making of error handler middleware
 app.use(errorHandler)
 
-
-
-
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, console.log(`Server is running ${process.env.NODE_ENV} on port ${PORT}`.yellow.bold))
