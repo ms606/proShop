@@ -13,7 +13,7 @@ const Header = () => {
   const logoutHandler = () => {
     dispatch(logout())
   }
-    return (
+    return (  
         <header>
             <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
               <Container>
