@@ -153,8 +153,7 @@ const ProfileScreen = ({ location, history }) => {
                         ))}
                     </tbody>
                 </Table>
-            )
-            }
+            )}
         </Col>
     </Row>
 

@@ -6,7 +6,7 @@ import Message from '../components/Message'
 import CheckoutSteps from '../components/CheckoutSteps'
 import { createOrder } from '../actions/orderActions'
 //import { ORDER_CREATE_RESET } from '../constants/orderConstants'
-//import { USER_DETAILS_RESET } from '../constants/userConstants'
+//import { USER_DETAILS_RESET } from '../constants/userContants'
 
 const PlaceOrderScreen = ({ history }) => {
   const dispatch = useDispatch()
